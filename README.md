@@ -1,0 +1,2 @@
+# inticalc
+JS-based calculator
