@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+body {
+    background: rgb(27, 27, 27);
+    font-family: 'Kulim Park', sans-serif;
+    color: rgb(226, 226, 226);
+    padding: 200px 0;
+    text-align: right;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.calc-wrapper {
+    width: 340px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-buttons {
+    width: 100%;
+}
+.calc-button {
+    width: 80px;
+    font-size: 30px;
+    height: 80px;
+}
+
+.result {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    height: 70px;
+    margin: 0 0 8px;
+    padding: 10px;
+}
+
+.result p {
+    font-size: 30px;
+    line-height: 44px;
+}
